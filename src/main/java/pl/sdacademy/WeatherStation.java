@@ -1,6 +1,9 @@
 package pl.sdacademy;
+//WS.2. Będziemy w aplikacji używali tylko jednej instancji
+// tej klasy
+public enum WeatherStation {
+    INSTANCE;
 
-public class WeatherStation {
     private Weather currentWeather;
 
     public void start(){
